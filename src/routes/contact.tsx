@@ -33,7 +33,7 @@ function ContactPage() {
         {[
           { Icon: MapPin, title: "Visit us", body: "Skatepark Aga Khan Walk, Nairobi", href: "https://maps.google.com/?q=Aga+Khan+Walk+Nairobi" },
           { Icon: Clock, title: "Opening hours", body: "Mon–Sat: 8am – 5pm · Sun: 11am – 6pm", href: "#" },
-          { Icon: Phone, title: "Call", body: "+254 700 000 000", href: "tel:+254707252034" },
+          { Icon: Phone, title: "Call", body: "+254 707 252 034", href: "tel:+254707252034" },
           { Icon: MessageCircle, title: "WhatsApp", body: "Chat with us instantly", href: "https://wa.me/254707252034" },
           { Icon: Mail, title: "Email", body: "mainsk8procenter@gmail.com", href: "mailto:mainsk8procenter@gmail.com" },
         ].map(({ Icon, title, body, href }) => (
