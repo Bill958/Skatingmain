@@ -33,9 +33,9 @@ function ContactPage() {
         {[
           { Icon: MapPin, title: "Visit us", body: "Skatepark Aga Khan Walk, Nairobi", href: "https://maps.google.com/?q=Aga+Khan+Walk+Nairobi" },
           { Icon: Clock, title: "Opening hours", body: "Mon–Sat: 8am – 5pm · Sun: 11am – 6pm", href: "#" },
-          { Icon: Phone, title: "Call", body: "+254 700 000 000", href: "tel:+254700000000" },
-          { Icon: MessageCircle, title: "WhatsApp", body: "Chat with us instantly", href: "https://wa.me/254700000000" },
-          { Icon: Mail, title: "Email", body: "hello@sk8pro.co.ke", href: "mailto:hello@sk8pro.co.ke" },
+          { Icon: Phone, title: "Call", body: "+254 700 000 000", href: "tel:+254707252034" },
+          { Icon: MessageCircle, title: "WhatsApp", body: "Chat with us instantly", href: "https://wa.me/254707252034" },
+          { Icon: Mail, title: "Email", body: "mainsk8procenter@gmail.com", href: "mailto:mainsk8procenter@gmail.com" },
         ].map(({ Icon, title, body, href }) => (
           <a key={title} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"
              className="group flex gap-5 rounded-2xl glass p-6 shadow-card transition hover:-translate-y-1 hover:shadow-glow">
