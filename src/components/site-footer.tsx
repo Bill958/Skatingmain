@@ -62,7 +62,7 @@ export function SiteFooter() {
           <ul className="space-y-2 text-sm text-white/70">
             <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-accent flex-shrink-0" /> Skatepark Aga Khan Walk, Nairobi</li>
             <li className="flex items-start gap-2"><Clock className="h-4 w-4 mt-0.5 text-accent flex-shrink-0" /> <span>Mon–Sat: 8am – 5pm<br/>Sun: 11am – 6pm</span></li>
-            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 text-accent flex-shrink-0" /><span>+254 700 000 000</span></li>
+            <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 text-accent flex-shrink-0" /><span>+254 707 252 034</span></li>
             <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5 text-accent flex-shrink-0" /><span>mainskateprocenter@gmail.com</span></li>
           </ul>
         </div>
