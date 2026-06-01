@@ -35,42 +35,37 @@
   --color-ring: var(--ring);
 }
 
+/* ─── Midnight slate dark theme ─── */
 :root {
   --radius: 0.75rem;
-  /* Dark base — matches Sk8 brand */
-  --background: oklch(0.13 0.02 270);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.17 0.025 270);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.17 0.025 270);
-  --popover-foreground: oklch(0.98 0 0);
-  /* Accent = orange #FF6B35 */
-  --accent: oklch(0.72 0.19 40);
-  --accent-foreground: oklch(0.13 0.02 270);
-  /* Brand = teal #2EC4B6 */
-  --brand: oklch(0.76 0.13 190);
-  --brand-foreground: oklch(0.13 0.02 270);
-  /* Highlight = red #E63946 */
-  --highlight: oklch(0.62 0.22 25);
-  /* Primary inherits accent so shadcn defaults look on-brand */
-  --primary: oklch(0.72 0.19 40);
-  --primary-foreground: oklch(0.13 0.02 270);
-  --secondary: oklch(0.22 0.03 270);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.22 0.03 270);
-  --muted-foreground: oklch(0.75 0.02 270);
-  --destructive: oklch(0.62 0.22 25);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.72 0.19 40);
+  --background:         #1a1d2e;
+  --foreground:         #e8eaf6;
+  --card:               #22263a;
+  --card-foreground:    #e8eaf6;
+  --popover:            #22263a;
+  --popover-foreground: #e8eaf6;
+  --accent:             #ff7043;
+  --accent-foreground:  #1a1d2e;
+  --brand:              #40c4aa;
+  --brand-foreground:   #1a1d2e;
+  --highlight:          #f06292;
+  --primary:            #ff7043;
+  --primary-foreground: #1a1d2e;
+  --secondary:          #272b40;
+  --secondary-foreground: #e8eaf6;
+  --muted:              #272b40;
+  --muted-foreground:   #8b90b8;
+  --destructive:        #f06292;
+  --destructive-foreground: #1a1d2e;
+  --border:             rgba(232,234,246,0.09);
+  --input:              rgba(232,234,246,0.11);
+  --ring:               #ff7043;
 
-  /* Gradients & shadows */
-  --gradient-hero: linear-gradient(135deg, oklch(0.13 0.02 270) 0%, oklch(0.18 0.04 280) 50%, oklch(0.15 0.03 250) 100%);
-  --gradient-accent: linear-gradient(135deg, oklch(0.72 0.19 40) 0%, oklch(0.62 0.22 25) 100%);
-  --gradient-brand: linear-gradient(135deg, oklch(0.76 0.13 190) 0%, oklch(0.55 0.12 165) 100%);
-  --shadow-glow: 0 10px 40px -10px oklch(0.72 0.19 40 / 0.45);
-  --shadow-card: 0 8px 30px -12px oklch(0 0 0 / 0.6);
+  --gradient-hero:   linear-gradient(135deg,#1a1d2e 0%,#1e2236 50%,#1c1f34 100%);
+  --gradient-accent: linear-gradient(135deg,#ff7043 0%,#f4511e 100%);
+  --gradient-brand:  linear-gradient(135deg,#40c4aa 0%,#26a69a 100%);
+  --shadow-glow:     0 10px 40px -10px rgba(255,112,67,0.4);
+  --shadow-card:     0 8px 30px -12px rgba(0,0,0,0.55);
 }
 
 .light {
